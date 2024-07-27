@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even or Odd</title>
+</head>
+<body>
+    <h1>Even or Odd?</h1>
+    <input type="number" id="num">
+    <button onclick="EvenOrOdd()" id="check">Even or Odd?</button>
+
+    <script>
+        function EvenOrOdd() {
+            const num = document.getElementById("num").value;
+            num1 = parseInt(num);
+            switch (num1%2){
+                case 0:
+                    alert("This number is Even");
+                    break;
+                case 1:
+                    alert("This number is Odd");
+                    break;
+                default: alert("Is this even a number?");
+                break;
+            }
+        }
+    </script>
+</body>
+</html>

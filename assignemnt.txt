@@ -1,0 +1,5 @@
+1. Do the same for months.
+Welcome to month, specify no. of days in month, and whether it's your birthday or not.
+
+2. Build a simple interest calculator. Should be well designed.
+3. Check if a number inputed in a textbox is even or odd.
